@@ -1,0 +1,28 @@
+p {font-style: italic;
+}
+section h1{color: blue;
+}
+
+.content_hold {
+    display: inline-block;
+    position: relative;
+}
+
+h2 {
+    color: brown;
+
+}
+
+.content_display{
+    display: none;
+    position: absolute;
+    background-color: black;
+    color: aliceblue;
+    box-shadow: 23px, rgb(red, green, blue);
+    z-index: -2;
+    width: 200px;
+    padding: 15px 16px;
+}
+
+.content_hold:hover .content_display{display: block;
+}
